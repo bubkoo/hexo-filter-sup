@@ -1,7 +1,7 @@
 {
   "name": "hexo-filter-sup",
   "version": "1.0.0",
-  "description": "Superscript (`<sup>`) tag filter for Hexo.",
+  "description": "Generate superscript (`<sup>`) tag for Hexo.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

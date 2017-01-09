@@ -5,7 +5,7 @@
 [![npm:](https://img.shields.io/npm/v/hexo-filter-sup.svg?style=flat-square)](https://www.npmjs.com/packages/hexo-filter-sup)
 [![Package Quality](http://npm.packagequality.com/shield/hexo-filter-sup.svg)](http://packagequality.com/#?package=hexo-filter-sup)
 
-> Superscript (`<sup>`) tag filter for Hexo.
+> Generate superscript (`<sup>`) tag for Hexo.
 
 ## Install
 
@@ -28,7 +28,7 @@ sup:
 
 ## Related
    
-   - [hexo-filter-sub](https://github.com/bubkoo/hexo-filter-sub) Subscript (`<sub>`) tag filter for Hexo.
+   - [hexo-filter-sub](https://github.com/bubkoo/hexo-filter-sub) Generate subscript (`<sub>`) tag for Hexo.
    - [hexo-toc](https://github.com/bubkoo/hexo-toc) Insert a markdown TOC before posts be rendered.
    - [hexo-filter-fenced-code](https://github.com/bubkoo/hexo-filter-fenced-code) Extend syntax for the native fenced code block.
    - [hexo-filter-flowchart](https://github.com/bubkoo/hexo-filter-flowchart) Generate flowchart diagrams for Hexo.
