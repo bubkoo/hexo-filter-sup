@@ -5,7 +5,7 @@
 [![npm:](https://img.shields.io/npm/v/hexo-filter-sup.svg?style=flat-square)](https://www.npmjs.com/packages/hexo-filter-sup)
 [![Package Quality](http://npm.packagequality.com/shield/hexo-filter-sup.svg)](http://packagequality.com/#?package=hexo-filter-sup)
 
-> Superscript (`<sup>`) tag filter for hexo.
+> Superscript (`<sup>`) tag filter for Hexo.
 
 ## Install
 
