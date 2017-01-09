@@ -2,9 +2,14 @@ var assign = require('object-assign');
 var markup = '^';
 
 hexo.config.sup = assign({ markup: markup }, hexo.config.sup);
-markup = hexo.config.sup.markup || markup;
+var placeholder = (hexo.config.sup.markup || markup)
+  .split('')
+  .map(function (char) {
+    return '\\' + char;
+  })
+  .join('');
 
-var reg = new RegExp(markup + '(.*?)' + markup, 'g');
+var reg = new RegExp(placeholder + '(.*?)' + placeholder, 'g');
 
 function parse(data) {
   var source = data.source;
@@ -16,7 +21,7 @@ function parse(data) {
 
   // 29^th^ => 29<sup>th</sup>
   data.content = data.content.replace(reg, function (raw, content) {
-    return '<sup>' + content + '</sup>'
+    return '<sup>' + content + '</sup>';
   });
 }
 
