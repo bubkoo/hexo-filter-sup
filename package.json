@@ -1,0 +1,31 @@
+{
+  "name": "hexo-filter-sup",
+  "version": "1.0.0",
+  "description": "Superscript (`<sup>`) tag filter for hexo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubkoo/hexo-filter-sup.git"
+  },
+  "keywords": [
+    "hexo",
+    "filter",
+    "markdown",
+    "sup"
+  ],
+  "author": {
+    "name": "bubkoo.wy",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bubkoo/hexo-filter-sup/issues"
+  },
+  "homepage": "https://github.com/bubkoo/hexo-filter-sup#readme",
+  "dependencies": {
+    "object-assign": "^4.1.0"
+  }
+}
